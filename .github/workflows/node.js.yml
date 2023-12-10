@@ -3,11 +3,8 @@
 
 name: Test & Build
 
-on:
-  push:
-    branches:
-      - "test2"
-
+on: push
+  
 jobs:
   build:
 
